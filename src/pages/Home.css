@@ -1,0 +1,120 @@
+
+
+body  {
+    background-image: linear-gradient(to right top, #041126, #0f1627, #171a28, #1d1e29, #23232a);
+ width: 100vw; 
+ height: 100vh; 
+ background-size: cover; 
+  
+}
+
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+
+
+}
+
+.box1{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    border: 3px solid blue;
+margin-top: 100px;
+ 
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    z-index: 2;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 3px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+
+    
+    
+}.bg{
+   
+}
+.box1 h1{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 48px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.box1  h2{
+    padding: 20px;
+    font-weight: 100;
+    font-size: 32px;
+    margin-bottom: 30px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.box1 button{
+    padding: 20px;
+ min-width: 12rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.1); /* Black w/opacity/see-through */
+    color: white;
+    border: 2px solid blue;
+    transition: 0.4s ease;
+    -webkit-box-shadow: -1px 2px 34px 0px rgba(13,0,255,0.94);
+-moz-box-shadow: -1px 2px 34px 0px rgba(13,0,255,0.94);
+box-shadow: -1px 2px 34px 0px rgba(13,0,255,0.94);
+align-items: center;
+margin: 0 auto;
+margin-bottom: 15px;
+
+    
+}
+button:hover{
+    background-color: blue;
+    color: white;
+}
+
+.box1 p:nth-of-type(1){
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Rokkitt', serif;
+    margin-top: 40px;
+    font-size: 32px;
+    transition: 1s ease;
+}
+.box1 p:nth-of-type(2){
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Rokkitt', serif;
+    margin-top: 20px;
+    font-size: 28px;
+    margin-bottom: 30px;
+  color: blue;
+    transition: 1s ease;
+
+    
+}
+p{
+letter-spacing: 2px;
+margin-bottom: 15px;
+}
+h1{
+    letter-spacing: 2px;
+}
+h2{
+    letter-spacing: 1.5px;
+}
+button{
+    letter-spacing: 1px;
+}
+a{
+    letter-spacing: 1.5px;
+}

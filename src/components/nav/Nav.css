@@ -1,0 +1,139 @@
+.logo{
+    font-family: 'Eczar', serif;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Rokkitt', serif;
+color: white;
+cursor: pointer;
+font-size: 20px;
+}
+.navItems a{
+text-decoration: none;
+color: white;
+border: 1px solid transparent;
+transition: 0.2s ease-in-out;
+
+}
+
+.navItems li{
+    list-style-type: none;
+ 
+}
+.navItems ul{
+    display: flex;
+    gap: 10rem;
+    margin-right: 50px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 18px;
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    }
+    .navItems a:hover{
+        border-bottom: 4px solid white;
+        border-radius: px;
+       padding-bottom: 10px;
+  
+
+}
+.navItems a:active{
+    border-bottom: 4px solid blue;
+    border-radius: px;
+   padding-bottom: 10px;
+   color: blue;
+
+}
+.navItems i {
+    color: white;
+    font-size: 30px;
+    display: none;
+    
+}.navlinksClosed{
+    display: none;
+}
+
+@media (max-width: 760px) {
+
+    .navItems ul{
+
+        gap: 1rem;
+display: block;
+flex-direction: column;
+        font-family: 'Merriweather Sans', sans-serif;
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+        margin: 0 auto;
+        }
+.navitems li:nth-of-type(3){
+    padding-bottom: 20px;
+}
+
+      .navItems li{
+        margin-top: 20px;
+        width: 100%;
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 20px;
+     
+
+ 
+    }
+
+    .logo{
+        font-family: 'Eczar', serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Rokkitt', serif;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    min-width: 250px;
+    
+    }
+    .topbar{
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+align-items: center;
+    }
+
+
+    .box1{
+
+    margin-top: 40px;
+    }
+
+.navItems i {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+   
+    
+}.navItems{
+  
+    padding: 20px;
+    display: block;
+    width: 100%;
+    
+
+  
+
+}
+.navitems a{
+    width: 100%;
+    display: block;
+
+}
+
+}
